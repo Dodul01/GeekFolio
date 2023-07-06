@@ -20,3 +20,14 @@ nav{
 .link{
   padding-left: 10px;
 }
+.bannerSectionContainer{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100vh;
+  background: url('./images/background.png'), linear-gradient(45deg, rgb(5, 5, 5), #2e2e2e);
+  color: white;
+}
+.bannerImage{
+  width: 300px;
+}
