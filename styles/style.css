@@ -9,18 +9,3 @@ nav{
   background-color: rgba(53,53,53);
   color: white;
 }
-.nav_logo{
-  width: 150px;
-  padding: 10px;
-}
-.nav_links_container{
-  display: flex;
-  list-style: none;
-}
-.link{
-  margin-left: 10px;
-  cursor: pointer; 
-}
-.link:hover{
-  color: red;
-}
