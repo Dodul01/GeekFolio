@@ -11,7 +11,12 @@ nav{
 }
 .logo{
   width: 150px;
+  padding: 10px;
 }
 .menuContainer{
-  
+  display: flex;
+  list-style: none;
+}
+.link{
+  padding-left: 10px;
 }
