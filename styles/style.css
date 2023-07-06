@@ -25,9 +25,6 @@ nav{
   align-items: center;
   justify-content: space-around;
   height: 100vh;
-  background-image: url("./images/background.png"),linear-gradient(45deg, rgb(5, 5, 5), #2e2e2e);
+  background:linear-gradient(45deg, rgb(5, 5, 5), #2e2e2e);
   color: white;
-}
-.bannerImage{
-  width: 300px;
 }
