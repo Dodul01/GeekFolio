@@ -44,7 +44,7 @@ nav{
   font-size: 18px;
   margin: 20px 10px;
 }
-.bannerDetail button{
+.btn{
   margin-left: 10px;
   padding: 10px;
   color: white;
@@ -52,4 +52,25 @@ nav{
   border: none;
   outline: none;
   cursor: pointer;
+}
+.aboutUsContainer{
+  display: flex;
+  flex-direction: row-reverse;
+}
+.title{
+  text-align: center;
+  font-size: 54px;
+  margin: 10px;
+}
+.aboutUs h1, p, button{
+  margin: 10px 0px;
+}
+.aboutUs h1{
+  font-size: 25px;
+}
+.aboutUs p{
+  font-size: 17px;
+}
+.aboutUs > .btn{
+  margin: 0px;
 }
