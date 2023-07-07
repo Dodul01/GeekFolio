@@ -91,13 +91,14 @@ nav{
   border-radius: 10px;
   padding: 5px;
   margin: 10px;
-  box-shadow: 4px 2px 105px white;;
+  box-shadow: 4px 2px 50px white;;
 }
 .serviceCartContainer{
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-around;
+  padding: 50px;
 }
 .ServiceCart p{
   text-align: left;
@@ -112,4 +113,29 @@ nav{
   border: none;
   outline: none;
   cursor: pointer;
+}
+footer{
+  background-color: black;
+  color: white;
+  padding: 30px 50px;
+}
+footer .logo{
+  height: 30px;
+  width: auto;
+}
+.footerLinkContainer{
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 0px;
+}
+.footerLinkContainer ul li{
+  list-style: none;
+  margin: 5px 0px;
+  cursor: pointer;
+}
+.footerBox{
+  padding: 10px;
+}
+.copyright{
+  text-align: center;
 }
